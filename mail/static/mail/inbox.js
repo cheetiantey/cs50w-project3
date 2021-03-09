@@ -60,7 +60,7 @@ function load_mailbox(mailbox) {
       console.log(email)
       email.forEach(email => {
         // alert("Alert is triggered");
-        // Email is unread - make background color white; Email is read - make background color red
+        // Email is unread - make background color white; Email is read - make background color gray
         if (email.read === false) {
           const div = document.createElement('div');
           div.style.backgroundColor = 'white';

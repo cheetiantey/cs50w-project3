@@ -71,7 +71,7 @@ function load_mailbox(mailbox) {
           div.addEventListener('click', () => load_email(email.id));
         } else {
           const div = document.createElement('div');
-          div.style.backgroundColor = 'red';
+          div.style.backgroundColor = 'gray';
           div.innerHTML = `<h4>Sender: ${email.sender}</h4>`;
           div.innerHTML += `<h6>Subject line: ${email.subject}</h6>`;
           div.innerHTML += `<h6>Timestamp: ${email.timestamp}</h6>`;
